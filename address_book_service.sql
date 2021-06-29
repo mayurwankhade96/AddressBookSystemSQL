@@ -38,3 +38,12 @@ WHERE city = 'Hyderabad';
 
 SELECT * FROM address_book
 WHERE state = 'Maharashtra';
+
+SELECT COUNT(*) FROM address_book
+WHERE city = 'Chennai';
+
+SELECT COUNT(*) FROM address_book;
+
+SELECT COUNT(state) FROM address_book;
+
+SELECT COUNT(city) FROM address_book;
