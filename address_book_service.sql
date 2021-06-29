@@ -24,3 +24,6 @@ WHERE first_name = 'John' AND last_name = 'Cena';
 
 UPDATE address_book SET state = 'Gujrat'
 WHERE first_name = 'Sam' AND last_name = 'Jones';
+
+DELETE FROM address_book
+WHERE first_name = 'Sam' AND last_name = 'Jones';
