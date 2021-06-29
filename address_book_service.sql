@@ -18,3 +18,9 @@ INSERT INTO address_book(first_name, last_name, address, city, state, zip, phone
 VALUES('Mayur', 'Wankhade', 'Kamothe', 'Panvel', 'Maharashtra', 410209, 8082494818, 'mayur.wankhade2@gmail.com'),
 	  ('Sam', 'Jones', 'Vashi', 'Navi Mumbai', 'Maharashtra', 400703, 1234567891, 'samjones3@gmail.com'),
 	  ('John', 'Cena', 'Kharghar', 'Navi Mumbai', 'MP', 123456, 9876543214, 'johncena@gmail.com');
+
+UPDATE address_book SET phone_number = 456123789
+WHERE first_name = 'John' AND last_name = 'Cena';
+
+UPDATE address_book SET state = 'Gujrat'
+WHERE first_name = 'Sam' AND last_name = 'Jones';
