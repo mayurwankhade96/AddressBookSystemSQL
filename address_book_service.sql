@@ -27,3 +27,14 @@ WHERE first_name = 'Sam' AND last_name = 'Jones';
 
 DELETE FROM address_book
 WHERE first_name = 'Sam' AND last_name = 'Jones';
+
+INSERT INTO address_book(first_name, last_name, address, city, state, zip, phone_number, email)
+VALUES('Bill', 'Rock', 'Seawoods', 'Hyderabad', 'Telangana', 789456, 789456456, 'billrock@gmail.com'),
+	  ('Charlie', 'Charls', 'Koparkhairne', 'Banglore', 'Karnataka', 123789, 123789456, 'charliecharles@gmail.com'),
+	  ('Terisa', 'Lehman', 'Ghansoli', 'Chennai', 'Tamilnadu', 456456, 789789456, 'terisalehman@gmail.com');
+
+SELECT * FROM address_book
+WHERE city = 'Hyderabad';
+
+SELECT * FROM address_book
+WHERE state = 'Maharashtra';
