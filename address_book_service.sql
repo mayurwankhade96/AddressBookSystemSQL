@@ -13,3 +13,8 @@ CREATE TABLE address_book
 	phone_number BIGINT NOT NULL,
 	email VARCHAR(255) NOT NULL
 );
+
+INSERT INTO address_book(first_name, last_name, address, city, state, zip, phone_number, email)
+VALUES('Mayur', 'Wankhade', 'Kamothe', 'Panvel', 'Maharashtra', 410209, 8082494818, 'mayur.wankhade2@gmail.com'),
+	  ('Sam', 'Jones', 'Vashi', 'Navi Mumbai', 'Maharashtra', 400703, 1234567891, 'samjones3@gmail.com'),
+	  ('John', 'Cena', 'Kharghar', 'Navi Mumbai', 'MP', 123456, 9876543214, 'johncena@gmail.com');
